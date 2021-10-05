@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy birthday</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <style>
+    </style>
+    </head>
+    <body style = "margin: 0%;">
+        <table>
+            <tr>
+                <td><a href = "HomePage.html"><img src = "Running man logo.png" width = "200px"></a></td>
+                <td width = "20px"></td>
+                <td><h1 style="color: #3464b4">Dear my running girl</h1></td>
+            </tr>
+        </table>
+        <marquee behavior = "scroll" scrollamount = "20" bgcolor = "#3464b4", height = "60px">
+            <h2 style = "height: 20px">&#127882 &#127881 HAPPY BIRTHDAY, MY LOVE &#127881 &#127882</h2>
+        </marquee>
+        <div class = "container">
+            <button class = "btn-1"><a href = "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.000894" style = "text-decoration: none; color: white">&#128525 Yes &#128525</a></button>
+            <button id = "btn-2">&#10060 No &#10060</button>
+            <script>
+                document.getElementById("btn-2").addEventListener('mouseover', moveButton)
+
+                function moveButton() {
+                    document.getElementById("btn-2").style.top = (Math.random()*90)+"%"
+                    document.getElementById("btn-2").style.left = (Math.random()*90)+"%"
+                }
+            </script>
+        </div>
+    </body>
+</html>
